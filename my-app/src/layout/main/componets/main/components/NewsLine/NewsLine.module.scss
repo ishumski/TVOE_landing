@@ -1,0 +1,26 @@
+.news{
+  display: flex;
+  gap: 12px;
+}
+
+.newsLine{
+  width: 816px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 12px;
+  background: #FFF;
+}
+
+.title{
+  padding: 32px 32px 0;
+}
+
+.newsLineContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0 32px;
+
+}

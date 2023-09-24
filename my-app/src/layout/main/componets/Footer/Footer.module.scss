@@ -1,0 +1,111 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 36px;
+  background: #333;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+}
+
+.logoWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  margin-right: 134px;
+}
+
+.logo{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.copy{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.linksWrapper{
+  width: 100%;
+  max-width: 729px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 97px;
+}
+
+.links{
+  display: grid;
+  grid-template-columns: 65px 212px;
+  grid-column-gap: 80px;
+  grid-row-gap: 12px;
+}
+
+.link{
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contacts{
+  width: 174px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.mailTo{
+  color: #FF6B00;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.telegram{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.addNewsButton{
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #FF6B00;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}

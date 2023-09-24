@@ -1,0 +1,18 @@
+.tab {
+  width: 264px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 12px;
+  border-radius: 12px;
+
+  &:hover  {
+    background: #262626;
+    color: #FFFFFF;
+
+    & svg path{
+      fill: #FF6B00;
+    }
+  }
+}

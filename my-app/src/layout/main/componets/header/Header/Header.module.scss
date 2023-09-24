@@ -1,0 +1,42 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 36px;
+  border-radius: 0 0 16px 16px;
+  background: #FFF;
+}
+
+.container{
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  margin-right: 105px;
+}
+
+.info{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.finance{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-right: 12px;
+}
