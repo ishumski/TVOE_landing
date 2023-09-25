@@ -1,12 +1,31 @@
-import './globals.css'
+import '../shared/styles/globals.css'
 import type {Metadata} from 'next'
-import {Inter} from 'next/font/google'
+import {Inter, Roboto, Montserrat} from 'next/font/google'
 import Header from "@/layout/main/componets/header/Header/Header";
 import Sidebar from "@/layout/main/componets/sidebar/Sidebar/Sidebar";
 import Footer from "@/layout/main/componets/Footer/Footer";
 import styles from './layout.module.scss'
 
-const inter = Inter({subsets: ['latin']})
+const inter = Inter({
+    weight: ['500'],
+    subsets: ['latin'],
+    variable: '--font-inter',
+    display: 'swap',
+})
+
+const roboto = Roboto({
+    weight: ['500'],
+    subsets: ['latin'],
+    variable: '--font-roboto',
+    display: 'swap',
+})
+
+const montserrat = Montserrat({
+    weight: ['500'],
+    subsets: ['latin'],
+    variable: '--font-montserrat',
+    display: 'swap',
+})
 
 export const metadata: Metadata = {
     title: 'Create Next App',
@@ -21,7 +40,7 @@ export default function RootLayout(
     }) {
     return (
         <html lang="en">
-        <body className={inter.className}>
+        <body className={`${roboto.variable} ${montserrat.variable} ${inter.variable}`}>
         <div className={styles.wrapper}>
             <Header/>
             <main className={styles.main}>

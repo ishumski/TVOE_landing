@@ -19,7 +19,7 @@
 
 .date{
   color: #848484;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -28,7 +28,7 @@
 
 .title{
   color: #333;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;

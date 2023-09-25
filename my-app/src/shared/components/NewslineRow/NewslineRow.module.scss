@@ -13,7 +13,7 @@
 
 .title{
   color: #262626;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -29,7 +29,7 @@
 
 .time{
   color: #838383;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -44,7 +44,7 @@
   border-radius: 20px;
   color: #FFF;
   background: #FF6B00;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-size: 12px;
   font-style: normal;
   font-weight: 500;

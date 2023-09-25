@@ -1,7 +1,7 @@
 import {FC, ReactNode} from "react";
 import ChevronRightIcon from "@/shared/components/icons/svgComponents/ChevronRightIcon";
-import styles from './NewsCard.module.scss'
 import classNames from "classnames";
+import styles from './NewsCard.module.scss'
 
 
 type TProps = {
@@ -14,7 +14,7 @@ const NewsCard:FC<TProps> = ({title, children, cardStyles}) => {
         <section className={classNames(styles.wrapper, cardStyles)}>
             <h2 className={styles.title} >
                 {title}
-                <ChevronRightIcon/>
+                <ChevronRightIcon className={styles.iconWrapper}/>
             </h2>
             {children}
         </section>

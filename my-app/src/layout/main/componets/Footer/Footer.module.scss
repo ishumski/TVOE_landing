@@ -24,7 +24,7 @@
 
 .logo{
   color: #FFF;
-  font-family: Montserrat;
+  font-family: var(--font-montserrat);
   font-size: 44px;
   font-style: normal;
   font-weight: 400;
@@ -33,7 +33,7 @@
 
 .copy{
   color: #FFF;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -58,7 +58,7 @@
 
 .link{
   color: #FFF;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -68,7 +68,7 @@
 .contacts{
   width: 174px;
   color: #FFF;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -77,7 +77,7 @@
 
 .mailTo{
   color: #FF6B00;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -102,7 +102,7 @@
   border-radius: 8px;
   background: #FF6B00;
   color: #FFF;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-size: 14px;
   font-style: normal;
   font-weight: 600;

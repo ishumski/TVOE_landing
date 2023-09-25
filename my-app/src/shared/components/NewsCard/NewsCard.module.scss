@@ -9,9 +9,13 @@
   align-items: center;
   gap: 4px;
   color: #262626;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.iconWrapper{
+  color: transparent;
 }

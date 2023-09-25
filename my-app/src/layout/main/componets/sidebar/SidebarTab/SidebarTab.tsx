@@ -1,5 +1,6 @@
 import styles from './SidebarTab.module.scss'
 import {FC, ReactNode} from "react";
+import Link from "next/link";
 
 type TProps = {
     icon:ReactNode,
@@ -8,10 +9,10 @@ type TProps = {
 
 const SidebarTab:FC<TProps> = ({icon, title}) => {
     return (
-        <div className={styles.tab}>
+        <Link href='#' prefetch={false} className={styles.tab}>
             {icon}
             <p className={styles.title}>{title}</p>
-        </div>
+        </Link>
     );
 };
 

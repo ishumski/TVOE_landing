@@ -5,16 +5,23 @@ import NaughtyIcon from "@/shared/components/icons/svgComponents/NaughtyIcon";
 import CommentIcon from "@/shared/components/icons/svgComponents/CommentIcon";
 import BookmarkIcon from "@/shared/components/icons/svgComponents/BookmarkIcon";
 import styles from './IncidentsCard.module.scss'
+import Image, {StaticImageData} from "next/image";
 
 type TProps = {
     date: string,
-    title: string
+    title: string,
+    image: StaticImageData
 }
 
-const IncidentsCard: FC<TProps> = ({date, title}) => {
+const IncidentsCard: FC<TProps> = ({date, title, image}) => {
     return (
         <div className={styles.wrapper}>
-            <div>IMAGE</div>
+            <Image
+                src={image!}
+                alt='#'
+                width={264}
+                height={164}
+            />
             <div className={styles.info}>
                 <p className={styles.date}>{date}</p>
                 <p className={styles.title}>{title}</p>
