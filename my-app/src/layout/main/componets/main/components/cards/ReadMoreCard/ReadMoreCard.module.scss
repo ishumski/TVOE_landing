@@ -1,6 +1,5 @@
 .wrapper{
   width: 245px;
-  height: 151px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -18,6 +17,7 @@
 }
 
 .tag{
+  font-family: var(--font-roboto);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,6 +55,7 @@
 }
 
 .statistics{
+  font-family: var(--font-roboto);
   display: flex;
   align-items: center;
   gap: 2px;

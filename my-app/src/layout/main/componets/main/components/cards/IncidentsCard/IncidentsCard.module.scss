@@ -1,6 +1,5 @@
 .wrapper {
   width: 264px;
-  height: 295px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -44,7 +43,9 @@
 }
 
 .statistics{
+  font-family: var(--font-roboto);
   display: flex;
   align-items: center;
   gap: 2px;
+
 }
